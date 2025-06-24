@@ -317,7 +317,6 @@ body {
         right: 12px;
         border-radius: var(--radius-sm);
         padding: 0 8px;
-        -webkit-text-fill-color: hsl(255, 100%, 25%);
     }
 
     .bottom__7aaec /* channel list new unreads pill */,
