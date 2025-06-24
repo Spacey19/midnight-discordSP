@@ -298,7 +298,7 @@ body {
     .contentRegion__23e6b,
     .sidebarRegionScroller__23e6b,
     .contentRegionScroller__23e6b {
-        background: hsla(289, 49%, 86%, 1);
+        background: var(--bg-4);
     }
     .standardSidebarView__23e6b {
         backdrop-filter: var(--panel-backdrop-filter);
