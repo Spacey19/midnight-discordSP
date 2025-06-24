@@ -436,8 +436,8 @@ body {
 }
 
 body {
-    --font-primary: var(--font), 'gg sans';
-    --font-display: var(--font), 'gg sans';
+    --font-primary: var(--font), 'sono';
+    --font-display: var(--font), 'roboto mono';
     --font-code: var(--code-font), 'gg mono';
 }
 
