@@ -57,22 +57,19 @@ body {
     .chat_f75fb0 > .header_c791b2 /* server members header */,
     .chat_f75fb0 > .scrollerBase_d125d2 /* server members page */,
     .chat_f75fb0 > .header__0b563  /* server channels and roles header */,
-    .chat_f75fb0 > .container__0b563 /* server channels and roles page */ {
+.chat_f75fb0 > .container__0b563 /* server channels and roles page */ {
     background-color: var(--background-base-lower);
     border-radius: var(--radius-lg);
     backdrop-filter: var(--panel-backdrop-filter);
     box-sizing: border-box;
     transition: border-color var(--border-hover-transition);
     
-    /* 3-layer border effect - using offsets to make visible */
-    border: 3px solid #946aa3 !important;
+    /* 3-layer border effect - 3px each layer */
+    border: 3px solid #946aa3 !important; /* Light grey inner */
     box-shadow: 
-        2px 2px 0 3px #6adcea,     /* Middle layer - offset to bottom-right */
-        4px 4px 0 6px #946aa3 !important;     /* Outer layer - more offset */
-    position: relative;
-    z-index: 10;
+        0 0 0 3px #6adcea,     /* White middle layer */
+        0 0 0 6px #946aa3 !important;     /* Dark grey outer layer */
 }
-
 
     .panels_c48ade /* user panel */ {
         bottom: 0;
