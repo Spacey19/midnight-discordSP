@@ -62,8 +62,8 @@ body {
    border-radius: var(--radius-lg);
    border: 3px solid #946aa3; /* outer purple border */
    box-shadow: 
-       inset 0 0 0 4px ,#946aa3 /* inner purple border */
-       0 0 0 4px #00bcd4; /* middle cyan border */
+       inset 0 0 0 4px #00bcd4, /* inner cyan border */
+       0 0 0 8px #946aa3; /* middle purple border */
    backdrop-filter: var(--panel-backdrop-filter);
    box-sizing: border-box;
    transition: box-shadow var(--border-hover-transition);
