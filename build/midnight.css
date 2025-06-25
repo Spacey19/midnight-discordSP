@@ -61,6 +61,7 @@ body {
         background-color: var(--background-base-lower);
         border-radius: var(--radius-lg);
         border: var(--border-thickness) solid var(--border-subtle);
+        border: inset 3px cyan;
         backdrop-filter: var(--panel-backdrop-filter);
         box-sizing: border-box;
         transition: border-color var(--border-hover-transition);
