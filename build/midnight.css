@@ -58,17 +58,22 @@ body {
     .chat_f75fb0 > .scrollerBase_d125d2 /* server members page */,
     .chat_f75fb0 > .header__0b563  /* server channels and roles header */,
     .chat_f75fb0 > .container__0b563 /* server channels and roles page */ {
-        background-color: var(--background-base-lower);
-        border-radius: var(--radius-lg);
-        border: var(--border-thickness) solid, #946aa3;
-        backdrop-filter: var(--panel-backdrop-filter);
-        box-sizing: border-box;
-        transition: border-color var(--border-hover-transition);
+   background-color: var(--background-base-lower);
+   border-radius: var(--radius-lg);
+   border: 3px solid #946aa3; /* outer purple border */
+   box-shadow: 
+       inset 0 0 0 1px #00bcd4, /* inner cyan border */
+       0 0 0 1px #946aa3; /* middle purple border */
+   backdrop-filter: var(--panel-backdrop-filter);
+   box-sizing: border-box;
+   transition: box-shadow var(--border-hover-transition);
 
-        &:hover {
-            border-color: var(--border-hover);
-        }
-    }
+   &:hover {
+       box-shadow: 
+           inset 0 0 0 1px #00e5ff, /* brighter cyan on hover */
+           0 0 0 1px #a67bb5; /* lighter purple on hover */
+   }
+}
 
     .panels_c48ade /* user panel */ {
         bottom: 0;
