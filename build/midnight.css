@@ -68,10 +68,10 @@ body {
    box-sizing: border-box;
    transition: box-shadow var(--border-hover-transition);
 
-   &:hover {
+   /*&:hover {
        box-shadow: 
-           inset 0 0 0 1px #00e5ff, /* brighter cyan on hover */
-           0 0 0 1px #a67bb5; /* lighter purple on hover */
+           inset 0 0 0 1px #00e5ff,  brighter cyan on hover
+           0 0 0 1px #a67bb5;  lighter purple on hover */
    }
 }
 
