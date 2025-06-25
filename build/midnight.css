@@ -65,10 +65,10 @@ body {
     transition: border-color var(--border-hover-transition);
     
     /* 3-layer border effect - 3px each layer */
-    border: 3px solid #946aa3; /* Light grey inner */
+    border: 3px solid #946aa3 !important; /* Light grey inner */
     box-shadow: 
         0 0 0 3px #6adcea,     /* White middle layer */
-        0 0 0 6px #946aa3;     /* Dark grey outer layer */
+        0 0 0 6px #946aa3 !important;     /* Dark grey outer layer */
 }
 
     .panels_c48ade /* user panel */ {
